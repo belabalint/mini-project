@@ -3,7 +3,11 @@
     "description": "arst",
     "version": "1.0",
     "manifest_version": 3,
+    "permissions": ["tabs", "scripting", "activeTab", "storage"],
     "background": {
-      "service_worker": "background.js"
+        "service_worker": "filter.js"
+    },
+    "action": {
+        "default_icon": "icon_128.png"
     }
   }
