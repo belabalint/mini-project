@@ -7,6 +7,10 @@
     "background": {
         "service_worker": "filter.js"
     },
+    "content_scripts":[{
+        "matches": ["http://www.google.com/*"],
+        "js": ["jquery-3.6.0.min.js", "javascript/content-script.js"]
+    }],
     "action": {
         "default_icon": "icon_128.png"
     }
