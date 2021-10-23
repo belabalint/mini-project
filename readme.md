@@ -1,0 +1,1 @@
+This extension currently blocks all thumbnails of which's title does not start with the letter a.
